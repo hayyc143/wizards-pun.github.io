@@ -86,9 +86,11 @@ body {
         display: flex; 
         text-align: center;
     }
+    
+    .answer-btn{
+        margin-bottom: 25px;
+    }
 }
 
 
-.answer.btn{
-    margin-bottom: 25px; 
-}
+
