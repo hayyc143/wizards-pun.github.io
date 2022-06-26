@@ -77,6 +77,16 @@ body {
     .intro {
         margin: 20px;
     }
+        #pun{
+        display: flex; 
+        text-align: center;
+    }
+
+    .setUp{
+        display: flex; 
+        text-align: center;
+    }
+}
 }
 
 .answer.btn{
