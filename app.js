@@ -17,10 +17,12 @@ const getPun = async () => {
     if (data.type === 'single'){
       pun.innerHTML = data.joke
       pun.style.display = 'block'
+      setUp.style.display = 'none'  
     } else if(data.type === 'twopart'){
       setUp.innerHTML = data.setup
       pun.innerHTML = data.delivery
       pun.style.display = 'none'
+      setUp.style.display = 'block'  
     } 
     }
   
